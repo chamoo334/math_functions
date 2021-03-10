@@ -17,4 +17,6 @@ for i in range(1, n):
         y_vect[i] += 2
 
 pplot.plot(x_vect, y_vect, 'k.', markersize=3)
+pplot.title('Sierpinski Triangle')
+pplot.axis('off')
 pplot.show()
