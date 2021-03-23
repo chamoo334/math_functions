@@ -19,4 +19,9 @@ for word in range(len(allwords)):
     allwords[word] = allwords[word][0] + '***'
 
 # put back together as content
-cleanedtext = ' '.join(words)
+cleanedtext = ' '.join(allwords)
+
+# create and save to results.txt
+f= open("results.txt","w+")
+f.write(cleanedtext)
+f.close()
