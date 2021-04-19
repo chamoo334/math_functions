@@ -1,5 +1,15 @@
 # math_projects
-### Collection of programs to demonstrate various math concepts.
+## Collection of programs to review and reinforce math concepts.
+* **arithmetic**
+
+* **algebra**
+
+* **geometry**
+
+* **trigonometry**
+
+* **calculus**
+
 * **linear_algebra**
 
 * **statistics**
