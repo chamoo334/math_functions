@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def gaussian(t, h):
-    """Returns Gaussian from """
+    """Returns Gaussian"""
     return np.exp(-4*np.log(2)*t**2 / h**2 )
 
 

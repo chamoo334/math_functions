@@ -1,7 +1,4 @@
 import sympy as sym
-#TODO: attempt recursion after improving recursion limit safely
-# print(sys.getrecursionlimit())
-#TODO: add sym.factor_list
 
 
 def get_primes(num_a, as_list = False):
