@@ -1,4 +1,5 @@
 import sympy as sym
+#TODO: determine whether dynamic piecewise is possible
 
 
 def get_func_limit(str_func, lim_point, val=None):
@@ -22,3 +23,21 @@ def get_func_limit(str_func, lim_point, val=None):
         sol = sol.limit(all_sym[i], lim_point[i])
 
     return sol
+
+
+# def piece_wise(str_sym_list, str_func_list, str_domain_list):
+#     all_pieces = [sym.sympify(each) for each in str_func_list]
+#     all_domains = [sym.sympify(each) for each in str_domain_list]
+#     test = "sym.Piecewise((sym.sympify("+str_func_list[0]+"),sym.sympify("+str_domain_list[0]+"))"
+#     for i in range(1, len(str_func_list)):
+#         test += ",(sym.sympify("+str_func_list[i]+"),sym.sympify("+str_domain_list[i]+"))"
+#     test += ")"
+#     print(test)
+#     test2 = exec(test)
+#     # print(test)
+
+
+# list_a = ['0', '-2*x', 'x**3/10']
+# list_b = ['x<0', '(x>=0) & (x<10)','x>=10']
+# list_c = ['x']
+# piece_wise(list_c, list_a, list_b)
