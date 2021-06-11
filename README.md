@@ -19,6 +19,8 @@
     * *trig_functions.py* - Collection of trig functions
 
 * **calculus**
+    * *deriv_integral.py* - Includes functions to obtain derivative or integral of a function.
+    * *general_functions.py* - Includes function for limits. TODO listed.
 
 * **linear_algebra**
 
