@@ -1,5 +1,7 @@
 # math_projects
 ## Collection of programs to review and reinforce math concepts.
+
+### **Python**
 * **arithmetic**
     * *even_odd.py* - Currently a terminal game to reinforce multiplication, division, and subtraction.
     * *mult_table.py* - Allows student to quickly check his/her multiplication table.
