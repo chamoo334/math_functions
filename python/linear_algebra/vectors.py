@@ -30,6 +30,12 @@ def outer_product(vec_a, vec_b):
     return np.outer(vec_a, vec_b)
 
 
+def transpose_vec(some_vec):
+    if type(some_vec).__module__ != np.__name__:
+        return False
+    return np.transpose(some_vec)
+
+
 test1 = create_row_vec([10, 20, 3])
 test2 = create_row_vec([5, 15, 3])
 
