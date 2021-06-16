@@ -77,3 +77,8 @@ def matrix_inverse(some_matrix):
     
     return np.linalg.inv(some_matrix)
 
+
+def solve_system(coeff_matrix, const_vector):
+    return np.linalg.solve(coeff_matrix, const_vector)
+
+
