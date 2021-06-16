@@ -25,6 +25,8 @@
     * *general_functions.py* - Includes function for limits. TODO listed.
 
 * **linear_algebra**
+    * *matrices.py* - Collection of functions for working with matrices using numpy
+    * *vectors.py* - Collection of cuntions for working with vectors using numpy
 
 * **statistics**
     * *law_large_num.py* - visualize the law of large numbers theorem
