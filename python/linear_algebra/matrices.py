@@ -67,12 +67,13 @@ def matrix_pseudoinverse(some_matrix):
 
 
 def matrix_inverse(some_matrix):
-    #TODO: check for full rank and square
+
     if type(some_matrix).__module__ != np.__name__:
         return False
+
+    is_square = get_rows_cols(some_matrix)
+    if is_square[0] != is_square[1] or np.linalg.matrix_rank(some_matrix) != is_square[0]:
+        return matrix_pseudoinverse(some_matrix)
+    
     return np.linalg.inv(some_matrix)
 
-
-m = 5
-test = np.random.randint(-m, m+1, (m, m))
-test[:,0] = test[:,1]
