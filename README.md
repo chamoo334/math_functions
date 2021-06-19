@@ -30,3 +30,7 @@
 
 * **statistics**
     * *law_large_num.py* - visualize the law of large numbers theorem
+
+
+
+Note: matplotlib requires python3-tk when used within a virtual environment.
